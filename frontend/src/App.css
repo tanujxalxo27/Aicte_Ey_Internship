@@ -1,0 +1,217 @@
+
+#root {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+.content{
+  background: linear-gradient(90deg, #1e0933 0%, #81a6ec 100%);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 600px;
+  margin-bottom: 5%;
+}
+p{
+  color: white;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('C:\Users\Admin\Desktop\Frontend_Practice\AICTE_Ey_Internship_P2\frontend\public\auctionbid.avif') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #5f0808;
+}
+
+.app {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(90deg, #1e0933 0%, #81a6ec 100%);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background: linear-gradient(90deg, #1e093300 0%, #81a6ec00 100%);
+  color: #fff;
+  padding: 15px 15px;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+  margin-bottom: 5%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  border-bottom: 2px ;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.form-container {
+  background: linear-gradient(90deg, #1e0933 0%, #81a6ec 100%);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #6a11cb;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  background: #120e0ec4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Spaces logo and nav items */
+  align-items: center;
+  background: linear-gradient(90deg, #1e09333f 0%, #81a6ec4a 100%);
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+}
+
+.nav-container {
+  display: flex;
+  gap: 20px; /* Adds space between links */
+}
+
+.nav-link-container {
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+}
+
+.nav-link-container:hover {
+  background-color: #2575fc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-icon {
+  width: 18px;
+  height: auto;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+button:hover {
+  background: #2575fc;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+li:hover {
+  transform: translateY(-2px);
+}
+
+li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.message {
+  color: #d9534f; /* Bootstrap danger color */
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .app {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  header {
+    padding: 10px 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
